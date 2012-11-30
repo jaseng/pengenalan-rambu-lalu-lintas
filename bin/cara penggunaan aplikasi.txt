@@ -1,0 +1,13 @@
+Cara penggunaan aplikasi :
+	1. Buka Aplikasi
+	2. Klik/ tekan start untuk masuk ke halaman menu
+	3. Pilih kategori yang diinginkan 
+		* Perintah
+		* Larangan
+		* Peringatan
+		* Petunjuk
+	4. Setelah masuk di salah satu kategori, pilih/klik rambu yang ingin dilihat
+	5. Anda dapat melihat berbagai rambu-rambu lalu lintas yang ada dengan cara klik next untuk melihat rambu selanjutnya dan klik back untuk kembali ke rambu sebelumnya
+	5. Klik back untuk kembali ke rambu-rambu berdasarkan kategori
+	6. Klik home untuk kembali ke menu
+	7. Klik help pada halaman menu untuk melihat panduan penggunaan
