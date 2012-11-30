@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="home_style.css" type="text/css"/>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="content">
+<div id="inner1">
+	<div id="close_btn">
+		<!--<input type="image" src="images/close_btn.png" alt="Submit button">-->
+	</div>
+</div>	
+<div id="inner2">
+	<div id="start_btn">
+		<a href="menu.html"><input type="image" src="images/start_btn.png" alt="Submit button"> </a>
+	</div>
+</div>	
+<div id="inner3">
+	<script language="javascript" type="text/javascript">
+	function playSound(soundfile) {
+	document.getElementById("dummy").innerHTML=
+	"<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+	}
+	</script>
+	<span id="dummy"></span>
+	<div id="sound_btn">
+	<a href="javascript: void(0);" onclick="playSound('sound/Musik.mp3');"><img src="images/sound_btn.png" /></a>
+	</div>
+</div>	
+<div id="inner4">
+	<!--<div id="help_btn">
+	<a href="help.html"><input type="image" src="images/help_btn.png" alt="Submit button"></a>
+	</div>
+	-->
+</div>	
+</div>
+</body>
+</html>

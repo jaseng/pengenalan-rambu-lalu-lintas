@@ -1,0 +1,45 @@
+#content  {
+	float: center;
+	background-image: url(images/home_no_btn.png);
+	width: 480px;
+	height: 320px;
+}
+#inner1 {
+	width: 480px;
+	height: 40px;
+}
+#inner2{
+	width: 480px;
+	height: 165px;
+}
+#inner3 {
+	width: 480px;
+	height: 64px;
+}
+#inner4 {
+	width: 480px;
+	height: 50px;
+}
+#close_btn {
+	float: right;
+	width: 34px;
+	height: 34px;
+}
+#start_btn {
+	float: right;
+	width: 69px;
+	height: 67px;
+	margin: 98px 30px 0px 0px;
+}
+#sound_btn {
+	float: right;
+	width: 64px;
+	height: 62px;
+	margin: 2px 60px 0px 0px; 
+}
+#help_btn {
+	float: right;
+	width: 56px;
+	height: 51px;
+	margin: 0px 7px 0px 0px; 
+}

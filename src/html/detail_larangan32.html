@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>scratch-tittle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="detail_style.css" type="text/css"/>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div id="content">
+<script language="javascript">
+function rambu(gambar, keterangan){
+	this.gambar = gambar;
+	this.keterangan = keterangan;
+}
+var rambulantas = new Array();
+rambulantas[0] = new rambu("G01.png","rambu larangan berjalan terus, wajib berhenti sesaat dan meneruskan perjalanan setelah mendapat kepastian aman meneruskan dari lalu lintas arah lainnya");
+rambulantas[1] = new rambu("G02.png","rambu larangan berjalan terus apabila mengakibatkan rintangan/hambatan/gangguan bagi lalu lintas dari arah lain yang wajib didahulukan");
+rambulantas[2] = new rambu("G03.png","dilarang berjalan terus pada persilangan-persilangan sebidang kereta api jalur tunggal, wajib berhenti sesaat untuk mendapatkan kepastian keamanan.");
+rambulantas[3] = new rambu("G04.png","berjalan terus pada persilangan-persilangan sebidang kereta api jalur ganda, wajib berhenti sesaat untuk mendapatkan kepastian keamanan.");
+rambulantas[4] = new rambu("G05.png","rambu larangan berjalan terus, wajib berhenti sesaat dan meneruskan perjalanan setelah melaksanakan suatu kegiatan kewajiban tertentu ( contoh untuk pemeriksaan cukai).");
+rambulantas[5] = new rambu("G06.png","rambu larangan berjalan terus, wajib berhenti sesaat sebelum bagian jalan tertentu dan meneruskan perjalanan setelah mendahulukan kendaraan yang datang dari arah depan secara bersamaan.");
+rambulantas[6] = new rambu("G07.png","rambu larangan masuk bagi semua kendaraan bermotor maupun tidak bermotor dari kedua arah.");
+rambulantas[7] = new rambu("G08.png","rambu larangan masuk bagi semua kendaraan bermotor maupun tidak bermotor.");
+rambulantas[8] = new rambu("G09.png","rambu larangan masuk bagi kendaraan bermotor roda empat dan lebih.");
+rambulantas[9] = new rambu("G10.png","rambu larangan masuk bagi kendaraan bermotor roda tiga.");
+rambulantas[10] = new rambu("G11.png","rambu larangan masuk bagi kendaraan bermotor roda dua.");
+rambulantas[11] = new rambu("G12.png","rambu larangan masuk bagi kendaraan bermotor.");
+rambulantas[12] = new rambu("G13.png","rambu larangan masuk bagi bus.");
+rambulantas[13] = new rambu("G14.png","rambu larangan masuk bagi mobil barang.");
+rambulantas[14] = new rambu("G15.png","rambu larangan masuk bagi kendaraan bermotor dengan kereta gandeng.");
+rambulantas[15] = new rambu("G16.png","rambu larangan masuk bagi kendaraan bermotor dengan kereta temple.");
+rambulantas[16] = new rambu("G17.png","rambu larangan masuk bagi kendaraan untuk keperluan khusus antara lain forklift, penggilas jalan, traktor.");
+rambulantas[17] = new rambu("G18.png","rambu larangan masuk bagi delman dan sejenisnya.");
+rambulantas[18] = new rambu("G19.png","rambu larangan masuk bagi gerobak pedati dan sejenisnya.");
+rambulantas[19] = new rambu("G20.png","rambu larangan masuk bagi gerobak dorong dan sejenisnya.");
+rambulantas[20] = new rambu("G21.png","rambu larangan masuk bagi gerobak dan dokar.");
+rambulantas[21] = new rambu("G22.png","rambu larangan masuk bagi semua kendaraan tidak bermotor.");
+rambulantas[22] = new rambu("G23.png","rambu larangan masuk bagi sepeda.");
+rambulantas[23] = new rambu("G24.png","rambu larangan masuk bagi becak.");
+rambulantas[24] = new rambu("G25.png","rambu larangan masuk bagi sepeda dan becak.");
+rambulantas[25] = new rambu("G26.png","rambu larangan masuk bagi pejalan kaki.");
+rambulantas[26] = new rambu("G26.png","rambu larangan berhenti sampai jarak 15m dari pemasangan rambu menurut arah lalu lintas, kecuali dinyatakan lain dengan adanya papan tambahan.");
+rambulantas[27] = new rambu("G28.png","rambu larangan parker sampai jarak 15m dari pemasangan rambu menurut arah lalu lintas, kecuali dinyatakan lain dengan adanya papan tambahan.");
+rambulantas[28] = new rambu("G29.png","rambu larangan berbelok ke kiri bagi kendaraan bermotor maupun tidak bermotor untuk masuk jalan simpangan atau berpindah jalur searah lalu lintas.");
+rambulantas[29] = new rambu("G30.png","rambu larangan berbelok ke kanan bagi kendaraan bermotor maupun tidak bermotor untuk masuk jalan simpangan atau berpindah jalur searah lalu lintas.");
+rambulantas[30] = new rambu("G31.png","rambu larangan berbalik arah bagi bermotor maupun tidak bermotor");
+rambulantas[31] = new rambu("G32.png","rambu larangan mendahului kendaraan lain yang berjalan di depan.");
+rambulantas[32] = new rambu("G33.png","rambu larangan menggunakan isyarat suara.");
+rambulantas[33] = new rambu("G34.png","rambu larangan masuk bagi kendaraan panjang lebih dari …meter.");
+rambulantas[34] = new rambu("G35.png","rambu larangan masuk bagi kendaraan lebar lebih dari …meter.");
+rambulantas[35] = new rambu("G36.png","rambu larangan masuk bagi kendaraan tinggi lebih dari …meter.");
+rambulantas[36] = new rambu("G37.png","rambu larangan masuk bagi kendaraan tidak bermotor dengan panjang lebih dari ,.,.meter.");
+rambulantas[37] = new rambu("G38.png","rambu larangan masuk bagi kendaraan yang seluruh berat termasuk muatannya lebih dari 5ton.");
+rambulantas[38] = new rambu("G39.png","rambu larangan masuk bagi kendaraan dengan muatan sumbu lebih dari 8 ton.");
+rambulantas[39] = new rambu("G40.png","G40	rambu larangan masuk bagi kendaraan dengan muatan sumbu terberat (mst) lebih besar dari 10 ton atau ukuran lebar tidak melebihi 2500 milimeter atau ukuran panjang tidak melebihi 1800 milimeter.");
+rambulantas[40] = new rambu("G41.png","rambu larangan masuk bagi kendaraan dengan muatan sumbu terberat (mst) lebih besar dari 8 ton atau ukuran lebar tidak melebihi 2500 milimeter atau ukuran panjang tidak melebihi 1800 milimeter.");
+rambulantas[41] = new rambu("G42.png","rambu larangan masuk bagi kendaraan dengan muatan sumbu terberat (mst) lebih besar dari 10 ton atau ukuran lebar tidak melebihi 2500 milimeter atau ukuran panjang tidak melebihi 1200 milimeter.");
+rambulantas[42] = new rambu("G43.png","rambu larangan masuk bagi kendaraan dengan muatan sumbu terberat (mst) lebih besar dari 10 ton atau ukuran lebar tidak melebihi 2100 milimeter atau ukuran panjang tidak melebihi 9000 milimeter.");
+rambulantas[43] = new rambu("G44.png","rambu larangan kecepatan kendaraan lebih dari 40km per jam.");
+rambulantas[44] = new rambu("G45.png","rambu larangan mengikuti kendaraan di depan kurang dari jarak 15meter.");
+rambulantas[45] = new rambu("G46.png","batas akhir kecepatan maksimum 40km perjam.");
+rambulantas[46] = new rambu("G47.png","batas akhir kendaraan mendahului kendaraan lain.");
+rambulantas[47] = new rambu("G48.png","batas akhir semua larangan setempat terhadap kendaraan bergerak.");
+rambulantas[48] = new rambu("G49.png","rambu larangan untuk mendahului.");
+
+
+var QueryString = function () {
+  var query_string = {};
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = pair[1];
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]], pair[1] ];
+      query_string[pair[0]] = arr;
+    } else {
+      query_string[pair[0]].push(pair[1]);
+    }
+  } 
+    return query_string;
+} ();
+
+if(QueryString.rambulantas!=undefined){
+	b=QueryString.rambulantas;
+}else{
+	b=0;
+}
+	function link(c){
+		b=parseInt(b)+parseInt(c);
+		if (parseInt(b) <= -1){
+		b=48
+		location.href='/android/detail_larangan.html?rambulantas=' + parseInt(b);
+		}
+		else if (parseInt(b) >= 49){
+		b=0
+        location.href='/android/detail_larangan.html?rambulantas=' + parseInt(b);
+		}
+		else{
+		location.href='/android/detail_larangan.html?rambulantas=' + parseInt(b);
+		}
+    }
+</script>
+<table border=0>
+	<tr>
+		<td colspan=2><a href="rambu_larangan4.html"><input type="image" src="images/back.png"></a></td>
+		<td colspan=3 width="350"><img src="images/lbl_larangan.png"></td>
+		<td colspan=2><a href="menu.html"><input type="image" src="images/home_btn.png" alt="Submit button" align="right"></a></td>
+	</tr>
+	<tr>
+		<td colspan=5 height="40"></td>
+	</tr>
+	<tr>
+		<td width="160" height="175"><script language="javascript">
+				var alamat = 'images/larangan/' + rambulantas[parseInt(b)+31].gambar;
+				var linkk= 'detail(parseInt(b))';
+				document.write('<img src="'+alamat+'" alt="" align="right" width=105 height=105 onClick="'+linkk+'"/>');
+		</script></td>
+		<td colspan=3 ><script language="javascript">
+				var alamat = rambulantas[parseInt(b)+31].keterangan;
+				var linkk= 'detail(parseInt(b))';
+				document.write( '<font style ="font size:30px; font-family: Comic Sans MC, cursive; align="center"; padding-left = "20";>' +alamat+ '</font>');
+		</script></td>
+		<td width="70"></td>
+	</tr>
+	
+	<tr>
+		<td colspan=2><a href="detail_larangan31.html"><input type="image" src="images/back_btn.png" alt="Submit button" align="left" onclick="link(parseInt(-1))"></td>
+		<td colspan=3><a href="detail_larangan33.html"><input type="image" src="images/next_btn.png" alt="Submit button" align="right"onclick="link(parseInt(1))"></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>

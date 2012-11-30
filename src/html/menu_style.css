@@ -1,0 +1,49 @@
+#content  {
+	float: center;
+	background-image: url(images/menu.png);
+	width: 480px;
+	height: 320px;
+}
+#inner1 {
+	width: 480px;
+	height: 65px;
+}
+#inner2{
+	padding-left: 190px;
+	width: 290px;
+	height: 33px;
+}
+#inner3 {
+	padding-left: 190px;
+	width: 240px;
+	height: 33px;
+}
+#inner4 {
+	padding-left: 190px;
+	width: 330px;
+	height: 33px;
+}
+#inner5 {
+	padding-left: 190px;
+	width: 290px;
+	height: 33px;
+}
+#inner7 {
+	padding-left: 190px;
+	width: 290px;
+	height: 43px;
+}
+#inner6 {
+	width: 480px;
+	height: 64px;
+}
+#close_btn {
+	float: right;
+	width: 34px;
+	height: 34px;
+}
+#help_btn {
+	float: right;
+	width: 64px;
+	height: 64px;
+}
