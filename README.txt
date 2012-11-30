@@ -6,6 +6,7 @@ Tentang Aplikasi Pengenalan Rambu Lalu Lintas
 Panduan Instalasi :
 	1. Unduh aplikasi ini di ...
 	2. Double click pada aplikasi yang telah diunduh
+	3. Install aplikasi
 
 
 
